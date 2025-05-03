@@ -24,3 +24,56 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@layer components {
+  .hero-heading {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-family: var(--font-heading);
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition-property: color, background-color, border-color;
+    transition-duration: 150ms;
+  }
+  
+  .btn-primary {
+    background-color: #f97316; /* orange-500 */
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ea580c; /* orange-600 */
+  }
+  
+  .section-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-heading);
+  }
+  
+  @media (min-width: 768px) {
+    .section-title {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+  }
+  
+  .section-subtitle {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+  }
+}
