@@ -94,7 +94,7 @@ export default function Navbar() {
                 className="mr-2 rounded-full"
               />
               <span className="font-bold text-xl md:text-2xl tracking-tight text-gray-900">
-                MaxSolar<span className="text-orange-500">Power</span>
+                MaxSolar<span className="text-orange-500">Power Company</span>
               </span>
             </button>
           </div>

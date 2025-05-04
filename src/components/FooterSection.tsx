@@ -153,8 +153,8 @@ export default function FooterSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">Visit Us</h3>
-                    <p className="text-gray-600">Ibadan</p>
-                    <p className="text-sm text-gray-500">Nigeria</p>
+                    <p className="text-gray-600">103, Abayomi Iwo road</p>
+                    <p className="text-sm text-gray-500">Ibadan , Oyo state, Nigeria</p>
                   </div>
                 </div>
               </div>
