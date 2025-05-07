@@ -56,7 +56,7 @@ export default function ProductsSection() {
         "Energy efficient",
         "Low noise operation"
       ],
-      image: "/wind-turbines.jpg", // Image 2
+      image: "/fan.jpg", // Image 2
       rating: 4.7,
       reviewCount: 52,
       badge: "Energy Efficient",
