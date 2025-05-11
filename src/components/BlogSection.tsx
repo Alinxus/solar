@@ -18,14 +18,6 @@ export default function BlogSection() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Explore our news & update today</h2>
             <p className="text-gray-600 max-w-2xl">Stay informed about the latest trends and innovations in sustainable energy solutions and their impact on our environment.</p>
           </div>
-          <div className="mt-4 md:mt-0">
-            <Link href="/blog" className="inline-flex items-center text-orange-500 font-medium hover:text-orange-600 transition-colors">
-              View all articles
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-              </svg>
-            </Link>
-          </div>
         </div>
 
         {/* Category Filter */}
@@ -115,12 +107,6 @@ export default function BlogSection() {
                       </div>
                       <div className="mt-3 text-xs text-gray-500">April 24, 2025</div>
                     </div>
-                    <Link href="/blog/solar-transportation" className="text-orange-500 text-sm font-medium flex items-center hover:text-orange-600 transition-colors">
-                      Read more
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                      </svg>
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -172,12 +158,6 @@ export default function BlogSection() {
                   </div>
                   <div className="text-xs text-gray-500">April 20, 2025</div>
                 </div>
-                <Link href="/blog/renewable-revolution" className="text-orange-500 text-sm font-medium flex items-center hover:text-orange-600 transition-colors">
-                  Read
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </Link>
               </div>
             </div>
           </div>
@@ -218,12 +198,6 @@ export default function BlogSection() {
                   </div>
                   <div className="text-xs text-gray-500">April 15, 2025</div>
                 </div>
-                <Link href="/blog/wind-energy-future" className="text-orange-500 text-sm font-medium flex items-center hover:text-orange-600 transition-colors">
-                  Read
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </Link>
               </div>
             </div>
           </div>
@@ -258,12 +232,6 @@ export default function BlogSection() {
                       </div>
                       <div className="mt-3 text-xs text-gray-500">April 10, 2025</div>
                     </div>
-                    <Link href="/blog/smart-grids" className="text-orange-500 text-sm font-medium flex items-center hover:text-orange-600 transition-colors">
-                      Read more
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                      </svg>
-                    </Link>
                   </div>
                 </div>
               </div>
