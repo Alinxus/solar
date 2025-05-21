@@ -23,21 +23,21 @@ export default function ClientsSection() {
       name: "Oluwaseun Adebayo",
       role: "CEO",
       company: "AdebayoGroup Ltd",
-      quote: "MaxSolarPower has transformed our business operations in Lagos. Their solar solutions have cut our power costs by 60% and practically eliminated our dependence on generators."
+      quote: "Max Solar Power has transformed our business operations in Lagos. Their solar solutions have cut our power costs by 60% and practically eliminated our dependence on generators."
     },
     {
       id: 2,
       name: "Dr. Sarah Okonjo",
       role: "Medical Director",
       company: "Prime Hospital, Abuja",
-      quote: "The reliability of MaxSolarPower's systems has been crucial for our hospital. We now have 24/7 power supply, ensuring our medical equipment runs continuously."
+      quote: "The reliability of Max Solar Power's systems has been crucial for our hospital. We now have 24/7 power supply, ensuring our medical equipment runs continuously."
     },
     {
       id: 3,
       name: "Mohammed Ibrahim",
       role: "Property Manager",
       company: "Ibrahim Heights, Kano",
-      quote: "Installing MaxSolarPower's solar solutions in our residential complex has been a game-changer. Our tenants enjoy uninterrupted power supply and significantly reduced electricity bills."
+      quote: "Installing Max Solar Power's solar solutions in our residential complex has been a game-changer. Our tenants enjoy uninterrupted power supply and significantly reduced electricity bills."
     }
   ];
 

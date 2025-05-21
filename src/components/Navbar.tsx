@@ -23,7 +23,7 @@ export default function Navbar() {
       }
 
       // Track active section based on scroll position
-      const sections = ['home', 'about', 'products', 'services', 'testimonials', 'blog', 'contact']
+      const sections = ['home', 'about', 'products', 'services', 'testimonials', 'contact']
       
       for (const section of sections) {
         const element = document.getElementById(section)
@@ -88,13 +88,13 @@ export default function Navbar() {
             <button onClick={() => scrollToSection('home')} className="flex items-center">
               <Image
                 src="/logo.jpg"
-                alt="Max Solar Power Company"
+                alt="Max Solar Power"
                 width={40}
                 height={40}
                 className="mr-2 rounded-full"
               />
               <span className="font-bold text-xl md:text-2xl tracking-tight text-gray-900">
-                MaxSolar<span className="text-orange-500">Power Company</span>
+                Max<span className="text-orange-500">Solar</span> Power
               </span>
             </button>
           </div>
@@ -106,7 +106,6 @@ export default function Navbar() {
             <NavLink id="products" label="Products" current={activeSection === 'products'} onClick={() => scrollToSection('products')} />
             <NavLink id="services" label="Services" current={activeSection === 'services'} onClick={() => scrollToSection('services')} />
             <NavLink id="testimonials" label="Testimonials" current={activeSection === 'testimonials'} onClick={() => scrollToSection('testimonials')} />
-            <NavLink id="blog" label="Blog" current={activeSection === 'blog'} onClick={() => scrollToSection('blog')} />
           </div>
 
           {/* Desktop Right Navigation */}
@@ -165,26 +164,8 @@ export default function Navbar() {
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white">
           <MobileNavLink id="home" label="Home" current={activeSection === 'home'} onClick={() => scrollToSection('home')} />
           <MobileNavLink id="about" label="About" current={activeSection === 'about'} onClick={() => scrollToSection('about')} />
-          
-          {/* Mobile Products Accordion */}
-          <div className="border-b border-gray-100 pb-1">
-            <MobileNavAccordion 
-              title="Products" 
-              current={activeSection === 'products'}
-              onClick={() => scrollToSection('products')}
-              items={[
-                { id: 'solar-panels', label: 'Solar Panels' },
-                { id: 'energy-storage', label: 'Energy Storage' },
-                { id: 'inverters', label: 'Inverters' },
-                { id: 'products', label: 'View All Products' },
-              ]}
-              onItemClick={scrollToSection}
-            />
-          </div>
-          
           <MobileNavLink id="services" label="Services" current={activeSection === 'services'} onClick={() => scrollToSection('services')} />
           <MobileNavLink id="testimonials" label="Testimonials" current={activeSection === 'testimonials'} onClick={() => scrollToSection('testimonials')} />
-          <MobileNavLink id="blog" label="Blog" current={activeSection === 'blog'} onClick={() => scrollToSection('blog')} />
           <MobileNavLink id="contact" label="Contact" current={activeSection === 'contact'} onClick={() => scrollToSection('contact')} />
           
           <div className="pt-2">

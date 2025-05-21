@@ -139,7 +139,7 @@ export default function FooterSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">Email Us</h3>
-                    <p className="text-gray-600">info@maxsolarpowercompany.com</p>
+                    <p className="text-gray-600">info@maxsolarpower.com</p>
                     <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
                   </div>
                 </div>
@@ -278,12 +278,12 @@ export default function FooterSection() {
             <div className="flex items-center mb-6">
               <Image
                 src="/logo.jpg"
-                alt="Max Solar Power Company"
+                alt="Max Solar Power"
                 width={32}
                 height={32}
                 className="mr-2 rounded-full"
               />
-              <h2 className="font-bold text-xl text-white">MaxSolarPower</h2>
+              <h2 className="font-bold text-xl text-white">MaxSolar Power</h2>
             </div>
             <p className="text-gray-400 text-sm mb-6">
               Nigeria's leading provider of solar solutions. We specialize in delivering reliable and efficient solar power systems to homes and businesses across the country, reducing energy costs and ensuring consistent power supply.
@@ -373,7 +373,7 @@ export default function FooterSection() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-500 text-sm mb-4 md:mb-0">
-              © 2024 Max Solar Power Company Nigeria. All rights reserved. Powering Nigeria's sustainable future.
+              © 2024 Max Solar Power Nigeria. All rights reserved. Powering Nigeria's sustainable future.
             </div>
             <div className="flex space-x-6">
               <button onClick={() => document.getElementById('terms')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-500 hover:text-orange-500 transition-colors text-sm">Terms & Conditions</button>
