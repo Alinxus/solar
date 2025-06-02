@@ -37,7 +37,7 @@ export default function BlogSection() {
               <p className="text-gray-600 text-sm mb-4">
                 Explore how advanced solar technology is transforming Nigeria's energy landscape and providing sustainable power solutions.
               </p>
-              <div className="text-sm text-gray-500">April 24, 2025</div>
+              <div className="text-sm text-gray-500">2025</div>
             </div>
           </div>
 
