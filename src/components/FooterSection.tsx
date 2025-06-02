@@ -126,7 +126,7 @@ export default function FooterSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">Call Us</h3>
-                    <p className="text-gray-600">+2347056510266</p>
+                    <p className="text-gray-600">+2349037641115</p>
                     <p className="text-sm text-gray-500">Mon-Fri: 8AM - 5PM</p>
                   </div>
                 </div>
@@ -153,7 +153,7 @@ export default function FooterSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">Visit Us</h3>
-                    <p className="text-gray-600">103, Abayomi Iwo road</p>
+                    <p className="text-gray-600">A5, Iwo road, 200258</p>
                     <p className="text-sm text-gray-500">Ibadan , Oyo state, Nigeria</p>
                   </div>
                 </div>
